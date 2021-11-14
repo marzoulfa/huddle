@@ -1,0 +1,142 @@
+ body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+:root{
+--Violet: hsl(257, 40%, 49%);
+--SoftMagenta: hsl(300, 69%, 71%);
+}
+ .serves{
+    background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%); ;
+}
+ .logo{
+     width: 10px;
+}
+.serves-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ .imag img{
+    width:70% ;
+    margin-top: 30px;
+    
+}
+.logo img{
+    height: 30px;
+    margin-top: 20px;
+
+}
+ h1{
+     color:white;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    padding-top: 60px;
+    width: 65%;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+p{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.801);
+}
+button{
+    padding: 1rem 5rem;
+    border-radius: 1.5rem;
+    border: none;
+    margin-bottom: 2rem;
+    outline: none;
+    color:var(--Violet);
+    cursor: pointer;
+    box-shadow: 0px 3px 6px 1px #220428;
+}
+.icon{
+    margin:  20px 20px;
+}
+
+.rounded-icon{
+    background-color: transparent;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 5px 5px 30px 0px;
+
+}
+.rounded-icon:hover{
+    border: 1px solid var(--SoftMagenta);
+    cursor: pointer;
+   
+}
+@media(min-width:1400px){
+    .logo img{
+        width: 150px;
+        height: 80px;
+        margin-left: 95px;
+        margin-top: 10px;
+   }
+    .imag img{
+    width: 60%;
+    margin-left: 7%;
+    margin-top: 2%;
+    
+     }
+    .content .imag{
+    display:flex;
+    }
+    .content-bar{
+        flex-direction: column;
+        text-align:start;
+    
+    }
+    button{
+        margin-left: 30px;
+        padding: 1rem 4rem;
+
+    }
+    button:hover{
+        background-color:var(--SoftMagenta);
+        color: white;
+        /* box-shadow: 1px 0px 11px 1px #220428; */
+    }
+
+    
+.serves-bar h1{
+    color:white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 50%;
+    line-height: 1.5;
+    margin-bottom: 20px ;
+    margin-left: 30px; 
+    }
+     p{
+        width: 67%;
+        margin-left: 30px;
+    }
+    .icon{
+        text-align: end;
+        margin-right: 80px; 
+    }
+    .rounded-icon:hover{
+        color: var(--SoftMagenta);
+        
+    }
+
+}
